@@ -28,7 +28,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: index.js.map
-          path: public/index.js.map
+          path: dist/index.js.map
   
   # This workflow contains a single job called "build"
   deploy:
